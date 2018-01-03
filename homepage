@@ -13,7 +13,7 @@
 <body>
 
   <table class="header" style="width: 85%; height :10%">
-    <td style="width: 40%">
+    <td>
         <button class="title">NUanime</button>
     </td>
     <td>
@@ -28,16 +28,26 @@
 </table>
 
 <div class="aboutuscontainer">
-    <p class="headingtitle">Northwestern Anime Club</p>
-    <div class="description">
-        <p>We are Northwestern University’s community anime club. We meet on Fridays from 6-8pm to watch and discuss Japanese animation and occasionally hold larger events such as lectures by professors and movie screenings with food. We are always accepting new members. If you are a student of Northwestern feel free to show up!</p>
-        <p> We also sponser an art circle! See some of the artists' work on our art page.</p>
-    </div>
+    <table style="width:95%" class="aboutus"> 
+        <div class="textdescription">
+            <td>
+                <p class="headingtitle">Northwestern Anime Club</p>
+                <div class="description">
+                    <p>We are Northwestern University’s community anime club. We meet on Fridays from 6-8pm to watch and discuss Japanese animation and occasionally hold larger events such as lectures by professors and movie screenings with food. We are always accepting new members. If you are a student of Northwestern feel free to show up!</p>
+                    <p> We also sponser an art circle! See some of the artists' work on our art page.</p>
+                </div>
+            </td>
+        </div>
+        <td>
+            <img class="mascot" src="execphotos\mascot.gif">
+        </td>
+    </table>
 </div>
 
 
 
 <div class="execcontainer">
+    <div class="execcontainerinside"> 
     <p class="headingtitle"> Meet our exec! </p>
     <div class="execmembers">
         <img class="execphoto" src="execphotos\Junhao.jpg">
@@ -99,6 +109,7 @@
             <p class="faveanime"> Favorite Anime: Shinsekai Yori</p>
         </div>
     </div>
+    </div> 
 </div>
 
 
