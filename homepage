@@ -1,35 +1,105 @@
 <!DOCTYPE html>
 
+
 <head>
     <title>NUanime</title>
-    <script src="scripts.js"></script>
+    <script src="javascript.js"></script>
     <script>document.getElementById("defaultOpen").click();</script>
+    <link rel="stylesheet" type="text/css" href="homepage.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Arbutus+Slab|Enriqueta|Frank+Ruhl+Libre|Halant|Jockey+One|Patua+One|Quando|Vollkorn" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
 </head>
 
 <body>
-    <h1>NUanime</h1>
-</body>
-<div class="tab">
-    <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
-    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
-    <button class="tablinks" onclick="openTab(event, 'Gallery')">Gallery</button>
-    <button class="tablinks" onclick="openTab(event, 'Art')">Art</button>
+
+  <table class="header" style="width: 85%; height :10%">
+    <td style="width: 40%">
+        <button class="title">NUanime</button>
+    </td>
+    <td>
+        <button class="tab">Contact Us</button>
+
+        <button class="tab">Photos</button>
+
+        <button class="tab">Art</button>
+
+        <button class="tab">About Us</button>
+    </td>
+</table>
+
+<div class="aboutuscontainer">
+    <p class="headingtitle">Northwestern Anime Club</p>
+    <div class="description">
+        <p>We are Northwestern University’s community anime club. We meet on Fridays from 6-8pm to watch and discuss Japanese animation and occasionally hold larger events such as lectures by professors and movie screenings with food. We are always accepting new members. If you are a student of Northwestern feel free to show up!</p>
+        <p> We also sponser an art circle! See some of the artists' work on our art page.</p>
+    </div>
 </div>
 
-<div id="Home" class="tabcontent">
-    <h3>NUanime</h3>
-    <p>We are Northwestern University’s community anime club. We meet on Fridays from 6-8pm to watch and discuss Japanese animation and occasionally hold larger events such as lectures by professors and movie screenings with food. We are always accepting new members. If you are a student of Northwestern feel free to show up!</p>
+
+
+<div class="execcontainer">
+    <p class="headingtitle"> Meet our exec! </p>
+    <div class="execmembers">
+        <img class="execphoto" src="execphotos\Junhao.jpg">
+        <div class="execdescription">
+            <p class="position"> President - Junhao Li</p>
+            <!-- <p class="name"> Junhao Li</p>-->
+            <p class="year"> Year: Junior</p> 
+            <p class="major"> Major: Computer Science</p>
+            <p class="faveanime"> Favorite Anime: Baccano!</p>
+        </div>
+    </div>
+    <div class="execmembers">
+        <img class="execphoto" src="execphotos\Celia.jpg">
+        <div class="execdescription">
+            <p class="position"> Vice President - Celia Hauw</p>
+            <!--<p class="name"> Celia Hauw</p>-->
+            <p class="year"> Year: Junior</p> 
+            <p class="major"> Major: Neuroscience</p>
+            <p class="faveanime"> Favorite Anime: Haikyuu</p>
+        </div>
+    </div>
+    <div class="execmembers">
+        <img class="execphoto" src="execphotos\Karen.jpg">
+        <div class="execdescription">
+            <p class="position"> Treasurer - Karen Shen</p>
+            <!--<p class="name"> Karen Shen</p>-->
+            <p class="year"> Year: Senior</p> 
+            <p class="major"> Major: CSD, Neuroscience</p>
+            <p class="faveanime"> Favorite Anime: Fullmetal Alchemist</p>
+        </div>
+    </div>
+    <div class="execmembers">
+        <img class="execphoto" src="execphotos\Julia.jpg">
+        <div class="execdescription">
+            <p class="position"> Secretary - Julia Brain</p>
+            <!--<p class="name"> Julia Brain</p>-->
+            <p class="year"> Year: Sophomore</p> 
+            <p class="major"> Major: Computer Science</p>
+            <p class="faveanime"> Favorite Anime: Sword Art Online</p>
+        </div>
+    </div>
+    <div class="execmembers">
+        <img class="execphoto" src="execphotos\austin.jpg">
+        <div class="execdescription">
+            <p class="position"> PR Chair - Austin Chambers</p>
+            <!--<p class="name"> Austin Chambers</p>-->
+            <p class="year"> Year: Senior</p> 
+            <p class="major"> Major: Computer Science/Asian Humanities</p>
+            <p class="faveanime"> Favorite Anime: Eureka 7</p>
+        </div>
+    </div>
+    <div class="execmembers">
+        <img class="execphoto" src="execphotos\Joseph.jpg">
+        <div class="execdescription">
+            <p class="position"> Tech Chair - Joseph Eligon</p>
+            <!--<p class="name"> Joseph Eligon</p>-->
+            <p class="year"> Year: Junior</p> 
+            <p class="major"> Major: Computer Science</p>
+            <p class="faveanime"> Favorite Anime: Shinsekai Yori</p>
+        </div>
+    </div>
 </div>
-<div id="Contact" class="tabcontent">
-    <h3>Contact</h3>
-    <p>Paris is the capital of France.</p> 
-</div>
-<div id="Gallery" class="tabcontent">
-    <h3>Gallery</h3>
-    <p>Paris is the capital of France.</p> 
-</div>
-<div id="Art" class="tabcontent">
-    <h3>Art</h3>
-    <p>Paris is the capital of France.</p> 
-</div>
-<script>document.getElementById("defaultOopen").click();</script>
+
+
+</body>
