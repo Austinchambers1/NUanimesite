@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <title>NUanime</title>
+    <script src="scripts.js"></script>
+    <script>document.getElementById("defaultOpen").click();</script>
+</head>
+
+<body>
+    <h1>NUanime</h1>
+</body>
+<div class="tab">
+    <button class="tablinks" onclick="openTab(event, 'Home')" id="defaultOpen">Home</button>
+    <button class="tablinks" onclick="openTab(event, 'Contact')">Contact</button>
+    <button class="tablinks" onclick="openTab(event, 'Gallery')">Gallery</button>
+    <button class="tablinks" onclick="openTab(event, 'Art')">Art</button>
+</div>
+
+<div id="Home" class="tabcontent">
+    <h3>NUanime</h3>
+    <p>We are Northwestern University’s community anime club. We meet on Fridays from 6-8pm to watch and discuss Japanese animation and occasionally hold larger events such as lectures by professors and movie screenings with food. We are always accepting new members. If you are a student of Northwestern feel free to show up!</p>
+</div>
+<div id="Contact" class="tabcontent">
+    <h3>Contact</h3>
+    <p>Paris is the capital of France.</p> 
+</div>
+<div id="Gallery" class="tabcontent">
+    <h3>Gallery</h3>
+    <p>Paris is the capital of France.</p> 
+</div>
+<div id="Art" class="tabcontent">
+    <h3>Art</h3>
+    <p>Paris is the capital of France.</p> 
+</div>
+<script>document.getElementById("defaultOopen").click();</script>
