@@ -31,7 +31,7 @@
     <table style="width:95%" class="aboutus"> 
         <div class="textdescription">
             <td>
-                <p class="headingtitle">Northwestern Anime Club</p>
+                <p class="headingtitle" id="execheading">Northwestern Anime Club</p>
                 <div class="description">
                     <p>We are Northwestern University’s community anime club. We meet on Fridays from 6-8pm to watch and discuss Japanese animation and occasionally hold larger events such as lectures by professors and movie screenings with food. We are always accepting new members. If you are a student of Northwestern feel free to show up!</p>
                     <p> We also sponser an art circle! See some of the artists' work on our art page.</p>
@@ -48,68 +48,142 @@
 
 <div class="execcontainer">
     <div class="execcontainerinside"> 
-    <p class="headingtitle"> Meet our exec! </p>
-    <div class="execmembers">
-        <img class="execphoto" src="execphotos\Junhao.jpg">
-        <div class="execdescription">
-            <p class="position"> President - Junhao Li</p>
-            <!-- <p class="name"> Junhao Li</p>-->
-            <p class="year"> Year: Junior</p> 
-            <p class="major"> Major: Computer Science</p>
-            <p class="faveanime"> Favorite Anime: Baccano!</p>
+        <p class="headingtitle"> Meet our exec! </p>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Junhao.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> President - Junhao Li</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Baccano!</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="execmembers">
-        <img class="execphoto" src="execphotos\Celia.jpg">
-        <div class="execdescription">
-            <p class="position"> Vice President - Celia Hauw</p>
-            <!--<p class="name"> Celia Hauw</p>-->
-            <p class="year"> Year: Junior</p> 
-            <p class="major"> Major: Neuroscience</p>
-            <p class="faveanime"> Favorite Anime: Haikyuu</p>
+
+<!--
+
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Celia3.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> President - Junhao Li</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Baccano!</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="execmembers">
-        <img class="execphoto" src="execphotos\Karen.jpg">
-        <div class="execdescription">
-            <p class="position"> Treasurer - Karen Shen</p>
-            <!--<p class="name"> Karen Shen</p>-->
-            <p class="year"> Year: Senior</p> 
-            <p class="major"> Major: CSD, Neuroscience</p>
-            <p class="faveanime"> Favorite Anime: Fullmetal Alchemist</p>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Karen.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> President - Junhao Li</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Baccano!</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="execmembers">
-        <img class="execphoto" src="execphotos\Julia.jpg">
-        <div class="execdescription">
-            <p class="position"> Secretary - Julia Brain</p>
-            <!--<p class="name"> Julia Brain</p>-->
-            <p class="year"> Year: Sophomore</p> 
-            <p class="major"> Major: Computer Science</p>
-            <p class="faveanime"> Favorite Anime: Sword Art Online</p>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Julia.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> President - Junhao Li</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Baccano!</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="execmembers">
-        <img class="execphoto" src="execphotos\austin.jpg">
-        <div class="execdescription">
-            <p class="position"> PR Chair - Austin Chambers</p>
-            <!--<p class="name"> Austin Chambers</p>-->
-            <p class="year"> Year: Senior</p> 
-            <p class="major"> Major: Computer Science/Asian Humanities</p>
-            <p class="faveanime"> Favorite Anime: Eureka 7</p>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\austin.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> President - Junhao Li</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Baccano!</p>
+                </div>
+            </div>
         </div>
-    </div>
-    <div class="execmembers">
-        <img class="execphoto" src="execphotos\Joseph.jpg">
-        <div class="execdescription">
-            <p class="position"> Tech Chair - Joseph Eligon</p>
-            <!--<p class="name"> Joseph Eligon</p>-->
-            <p class="year"> Year: Junior</p> 
-            <p class="major"> Major: Computer Science</p>
-            <p class="faveanime"> Favorite Anime: Shinsekai Yori</p>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Joseph.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> President - Junhao Li</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Baccano!</p>
+                </div>
+            </div>
         </div>
-    </div>
-    </div> 
+-->
+
+
+
+
+
+
+
+        
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Celia3.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> Vice President - Celia Hauw</p>                    
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Neuroscience</p>
+                    <p class="faveanime"> Favorite Anime: Haikyuu</p>
+                </div>
+            </div>
+        </div>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Karen.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> Treasurer - Karen Shen</p>
+                    <p class="year"> Year: Senior</p> 
+                    <p class="major"> Major: CSD, Neuroscience</p>
+                    <p class="faveanime"> Favorite Anime: Fullmetal Alchemist</p>
+                </div>
+            </div>
+        </div>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Julia.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> Secretary - Julia Brain</p>
+                    <p class="year"> Year: Sophomore</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Sword Art Online</p>
+                </div>
+            </div>
+        </div>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\austin.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> PR Chair - Austin Chambers</p>
+                    <p class="year"> Year: Senior</p> 
+                    <p class="major"> Major: Computer Science/Asian Hum.</p>
+                    <p class="faveanime"> Favorite Anime: Eureka 7</p>
+                </div>
+            </div>
+        </div>
+        <div class="execmembers">
+            <div class="gallery">
+                <img src="execphotos\Joseph.jpg" width="300" height="300">
+                <div class="execdescription">
+                    <p class="position"> Tech Chair - Joseph Eligon</p>
+                    <p class="year"> Year: Junior</p> 
+                    <p class="major"> Major: Computer Science</p>
+                    <p class="faveanime"> Favorite Anime: Shinsekai Yori</p>
+                </div>
+            </div>
+        </div>
+    
+</div> 
 </div>
 
 
