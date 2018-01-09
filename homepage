@@ -14,16 +14,23 @@
 
   <table class="header" style="width: 85%; height :10%">
     <td>
-        <button class="title">NUanime</button>
+        <a href="homepage.html">
+            <button class="title">NUanime</button>
+        </a>
     </td>
     <td>
-        <button class="tab">Contact Us</button>
-
-        <button class="tab">Photos</button>
-
-        <button class="tab">Art</button>
-
-        <button class="tab">About Us</button>
+        <a href="contactpage.html">
+            <button class="tab">Contact Us</button>
+        </a>
+        <a href="photospage.html">
+            <button class="tab">Photos</button>
+        </a>
+        <a href="artpage.html">
+            <button class="tab">Art</button>
+        </a>
+        <a href="homepage.html">
+            <button class="tab">About Us</button>
+        </a>
     </td>
 </table>
 
@@ -59,74 +66,7 @@
                     <p class="faveanime"> Favorite Anime: Baccano!</p>
                 </div>
             </div>
-        </div>
-
-<!--
-
-        <div class="execmembers">
-            <div class="gallery">
-                <img src="execphotos\Celia3.jpg" width="300" height="300">
-                <div class="execdescription">
-                    <p class="position"> President - Junhao Li</p>
-                    <p class="year"> Year: Junior</p> 
-                    <p class="major"> Major: Computer Science</p>
-                    <p class="faveanime"> Favorite Anime: Baccano!</p>
-                </div>
-            </div>
-        </div>
-        <div class="execmembers">
-            <div class="gallery">
-                <img src="execphotos\Karen.jpg" width="300" height="300">
-                <div class="execdescription">
-                    <p class="position"> President - Junhao Li</p>
-                    <p class="year"> Year: Junior</p> 
-                    <p class="major"> Major: Computer Science</p>
-                    <p class="faveanime"> Favorite Anime: Baccano!</p>
-                </div>
-            </div>
-        </div>
-        <div class="execmembers">
-            <div class="gallery">
-                <img src="execphotos\Julia.jpg" width="300" height="300">
-                <div class="execdescription">
-                    <p class="position"> President - Junhao Li</p>
-                    <p class="year"> Year: Junior</p> 
-                    <p class="major"> Major: Computer Science</p>
-                    <p class="faveanime"> Favorite Anime: Baccano!</p>
-                </div>
-            </div>
-        </div>
-        <div class="execmembers">
-            <div class="gallery">
-                <img src="execphotos\austin.jpg" width="300" height="300">
-                <div class="execdescription">
-                    <p class="position"> President - Junhao Li</p>
-                    <p class="year"> Year: Junior</p> 
-                    <p class="major"> Major: Computer Science</p>
-                    <p class="faveanime"> Favorite Anime: Baccano!</p>
-                </div>
-            </div>
-        </div>
-        <div class="execmembers">
-            <div class="gallery">
-                <img src="execphotos\Joseph.jpg" width="300" height="300">
-                <div class="execdescription">
-                    <p class="position"> President - Junhao Li</p>
-                    <p class="year"> Year: Junior</p> 
-                    <p class="major"> Major: Computer Science</p>
-                    <p class="faveanime"> Favorite Anime: Baccano!</p>
-                </div>
-            </div>
-        </div>
--->
-
-
-
-
-
-
-
-        
+        </div>    
         <div class="execmembers">
             <div class="gallery">
                 <img src="execphotos\Celia3.jpg" width="300" height="300">
@@ -182,12 +122,13 @@
                 </div>
             </div>
         </div>
-    
-</div> 
+        
+    </div> 
 </div>
+
 <div class="clearfix"></div>
 <div class="spacing">
-    </div>
+</div>
 
 
 </body>
